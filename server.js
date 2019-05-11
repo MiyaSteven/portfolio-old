@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static('./public'));
 
 app.get('/hello', (request, response) => {
-  response.status(200).send('Hello');
+  response.status(200).send('I am the boss');
 });
 
 app.get('/data', (request, response) => {
